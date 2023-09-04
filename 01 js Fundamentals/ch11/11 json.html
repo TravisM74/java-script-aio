@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Json</title>
+</head>
+<body>
+    <script>
+        const person = '{"firstName": "Conway","age": 59}';
+        console.log(person);
+
+        //creating the object from the string
+        const personObject = JSON.parse(person);
+        console.log(personObject);
+
+        //converting the object back to the string
+        const personJSON = JSON.stringify(personObject);
+        console.log(personJSON);
+    </script>
+</body>
+</html>

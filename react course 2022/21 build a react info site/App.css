@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  max-width: 500px;;
+}
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+.App {
+  text-align: left;
+}
+.nav-head_container {
+
+}
+.nav-head_container {
+  display:flex;
+  align-items: center;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+.nav-logo_header {
+  margin-right:auto;
+  font-weight: 700;
+  font-size: 22px;
+  color:rgb(40, 190, 201);
+}
+
+.nav-title{
+  font-weight: 600;
+}
+
+.nav-logo_image {
+  margin-right: 40;
+}
+
+main {
+  background-image: url(./components/logo192.png) ;
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position-x: 365px;
+  background-position-y: 75%;
+}
+body{
+  background-color:rgb(46, 46, 46) ;
+  color: white;
+  margin-top:0;
+}
+.body{
+  padding:57px 30px;
+}
+.body-title{
+  margin:0;
+  letter-spacing: -0.05em;
+}
+.body-ul_facts{
+  margin-top: 30px;
+}
+.body-ul_facts >li {
+  line-height: 19px;
+  padding-block: 7px
+}
+.body-ul_facts >li::marker {
+  font-size: 1.4rem;
+  color:rgb(40, 190, 201);
+}

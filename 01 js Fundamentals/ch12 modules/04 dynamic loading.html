@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const stateButton = document.getElementById('oregonButton');
+        stateButton.addEventListener(
+            'click',
+            () =>
+                import('./listing12-3.js').then((OregonInfo) => {
+                    alert(`${OregonInfo.stateName}'s state bird is ${OregonInfo.stateBird}.`);
+                })
+        );   
+    </script>
+</body>
+</html>
